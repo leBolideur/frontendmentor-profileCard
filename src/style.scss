@@ -131,9 +131,13 @@ body {
   }
 }
 
-@media screen and (max-width: 375px) {
-    .card {
-        margin: 10vh auto;
-        width: 80%;
+@media screen and (max-width: 450px) {
+  .card {
+    margin: 10vh auto;
+    width: 80%;
+
+    .photo {
+      top: 10%;
     }
+  }
 }
