@@ -47,8 +47,8 @@ body {
   flex-direction: column;
 
   margin: 25vh auto;
-  width: 25%;
-  height: 50vh;
+  width: 350px;
+  height: 400px;
 
   .top {
     background-image: url("../images/bg-pattern-card.svg");
@@ -81,7 +81,7 @@ body {
     .fullName {
       font-family: "Kumbh Sans", sans-serif;
       color: $veryDarkBlue;
-      font-weight: bold;
+      font-weight: 700;
       font-size: 18px;
 
       text-align: center;
@@ -89,8 +89,11 @@ body {
       margin-top: 2em;
 
       .age {
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 400;
         display: inline;
         color: $darkGray;
+        padding-left: 10px;
       }
     }
 
@@ -98,6 +101,8 @@ body {
       display: block;
       margin-top: 1em;
       width: 100%;
+      font-family: "Kumbh Sans", sans-serif;
+      font-weight: 400;
       color: $darkGray;
       text-align: center;
     }
@@ -119,13 +124,14 @@ body {
     h2 {
       color: $veryDarkBlue;
       font-size: 18px;
-      font-weight: bold;
+      font-weight: 700;
       line-height: 1.2em;
 
       span {
         display: block;
         color: $darkGray;
         font-size: 12px;
+        font-weight: 400;
       }
     }
   }
@@ -137,7 +143,7 @@ body {
     width: 80%;
 
     .photo {
-      top: 10%;
+      top: 20%;
     }
   }
 }
